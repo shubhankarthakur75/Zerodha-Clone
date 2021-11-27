@@ -1,6 +1,7 @@
 import React from "react";
 import "./Main.css";
-import { Router, Route, Switch } from "react-router";
+import { Route, Switch } from "react-router";
+import Home from "../Home/Home";
 import Header from "../Header/Header";
 import About from "../About/About";
 import Products from "../Products/Products";
@@ -13,7 +14,7 @@ function Main() {
       <Header />
       <Switch>
         <Route exact path="/">
-          <Products />
+          <Home />
         </Route>
         <Route exact path="/about">
           <About />

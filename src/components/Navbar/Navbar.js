@@ -1,7 +1,8 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/zerodha-logo.svg";
+import hamburgerMenuIcon from "../../assets/images/hamburger-menu-icon.png";
 
 function Navbar() {
   return (
@@ -10,21 +11,28 @@ function Navbar() {
         <img src={logo} className="nav-logo" alt="" />
       </div>
       <div className="right-nav-box">
-        {/* <Link to="/signup">
+        {/* <NavLink to="/signup">
           <li>Signup</li>
-        </Link> */}
-        <Link to="/about">
+        </NavLink> */}
+        <NavLink to="/about">
           <li>About</li>
-        </Link>
-        <Link to="/products">
+        </NavLink>
+        <NavLink to="/products">
           <li>Products</li>
-        </Link>
-        <Link to="/pricing">
+        </NavLink>
+        <NavLink to="/pricing">
           <li>Pricing</li>
-        </Link>
-        <Link to="/support">
+        </NavLink>
+        <NavLink to="/support">
           <li>Support</li>
-        </Link>
+        </NavLink>
+        <li>
+          <img
+            src={hamburgerMenuIcon}
+            className="hamburger-menu-icon"
+            alt="hamburger-menu"
+          />
+        </li>
       </div>
     </div>
   );
