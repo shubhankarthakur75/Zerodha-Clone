@@ -1,0 +1,6 @@
+.header {
+  width: 100%;
+  /* position: fixed;
+  top: 0; */
+  border-bottom: 3px solid rgb(243, 243, 243);
+}
