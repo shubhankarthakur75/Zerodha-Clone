@@ -1,9 +1,12 @@
-import React from "react";
+import React ,  { useEffect } from "react";
 import "./Pricing.css";
 import zeroImg from "../../assets/images/0-image.svg";
 import twentyImg from "../../assets/images/20-image.svg";
 
 function Pricing() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="pricing">
       <div className="box">
