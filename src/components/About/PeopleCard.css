@@ -1,0 +1,15 @@
+
+.card > div:nth-of-type(1) {
+    display: grid;
+    place-items: center;
+}
+
+img {
+    border-radius: 100%;
+}
+
+.card > div:nth-of-type(2) > div {
+    text-align: center;
+    padding: 0.4em 0em;
+    font-family: "Inter", serif;
+}
