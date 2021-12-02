@@ -1,104 +1,104 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 header {
-    display: grid;
-    place-items: center;
-    padding: 5em 2em;
-border-bottom: 1px solid #eee;
+  display: grid;
+  place-items: center;
+  padding: 5em 2em;
+  border-bottom: 1px solid #eee;
 }
 
- h1 {
-    text-align: center;
-    font-size: 2rem;
-    line-height: 1.5;
-    font-weight: 400;
-    font-family: "Inter", serif;
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Inter", serif;
 }
 
-a {
-color: #387ed1;
-    text-decoration: none;
-    font-weight: 500;
+.highlight-blue {
+  color: #387ed1;
+  font-weight: 500;
 }
 
 .about {
-    display: block;
-    width: 100%;
-    padding: 1rem 2rem;
+  display: block;
+  width: 100%;
+  padding: 1rem 2rem;
 }
 
 .about-history {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    padding: 1rem 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 1rem 2rem;
 }
 
 .about-history > div {
-    width: 100%;
-    padding: 1em 2em;
+  width: 100%;
+  padding: 1em 2em;
 }
 
 .about-history > div > div {
-    padding: 0.5em 0em;
-    font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 15px;
+  padding: 0.5em 0em;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
 }
 
 .about-people {
-    padding: 1rem 2rem;
+  padding: 1rem 2rem;
 }
 
 .people-wrapper {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
 }
 
 .people-wrapper > div:nth-of-type(1) {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .people-wrapper > div:nth-of-type(2) {
-    padding: 1rem;
-    width: 50%;
+  padding: 1rem;
+  width: 50%;
 }
 
 .people-wrapper > div:nth-of-type(2) > div {
-font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 15px;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 1rem 2rem;
-    padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem 2rem;
+  padding: 1rem 2rem;
 }
-
 
 @media screen and (max-width: 550px) {
-    .about {
-        padding: 1em;
-    }
+  .about {
+    padding: 1em;
+  }
 
-    .about-history {
-        display: block;
-        padding: 1rem 0em;
-    }
+  .about-history {
+    display: block;
+    padding: 1rem 0em;
+  }
 
-.about-people {
+  .about-people {
     padding: 1rem 0rem;
-}
+  }
 
-    .people-wrapper {
-        display: block;
-    }
+  .people-wrapper {
+    display: block;
+  }
 
-.people-wrapper > div:nth-of-type(2) {
+  .people-wrapper > div:nth-of-type(2) {
     padding: 1rem;
     width: 100%;
-}
+  }
 }

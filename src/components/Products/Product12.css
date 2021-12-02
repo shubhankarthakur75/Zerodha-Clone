@@ -1,0 +1,38 @@
+.product12 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  text-align: left;
+}
+.product12 .small-left-box {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+.product12 .large-right-box {
+  width: 55%;
+}
+
+.produc12 .product-name {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+}
+.product12 .product-name {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: left;
+}
+.product12 .product-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+.product12 .store-icon {
+  margin: 30px 30px 30px 0px;
+}
+.product12 .product-image {
+  width: auto;
+}

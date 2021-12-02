@@ -6,19 +6,54 @@ function About() {
   return (
     <div className="about">
       <header>
-        <h1>We pioneered the discount broking model in India.
-          Now, we are breaking ground with our technology.</h1>
+        <h1>
+          We pioneered the discount broking model in India. Now, we are breaking
+          ground with our technology.
+        </h1>
       </header>
       <div className="about-history">
         <div>
-          <div>We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.</div>
-          <div>We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.</div>
-          <div>We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.</div>
+          <div>
+            We kick-started operations on the 15th of August, 2010 with the goal
+            of breaking all barriers that traders and investors face in India in
+            terms of cost, support, and technology. We named the company
+            Zerodha, a combination of Zero and "Rodha", the Sanskrit word for
+            barrier.
+          </div>
+          <div>
+            We kick-started operations on the 15th of August, 2010 with the goal
+            of breaking all barriers that traders and investors face in India in
+            terms of cost, support, and technology. We named the company
+            Zerodha, a combination of Zero and "Rodha", the Sanskrit word for
+            barrier.
+          </div>
+          <div>
+            We kick-started operations on the 15th of August, 2010 with the goal
+            of breaking all barriers that traders and investors face in India in
+            terms of cost, support, and technology. We named the company
+            Zerodha, a combination of Zero and "Rodha", the Sanskrit word for
+            barrier.
+          </div>
         </div>
         <div>
-          <div>We kick-started operations on the 15th of August, 2010 with the goal of breaking all barriers that traders and investors face in India in terms of cost, support, and technology. We named the company Zerodha, a combination of Zero and "Rodha", the Sanskrit word for barrier.</div>
-          <div><a href="#">Rainmatter</a>, our fintech fund and incubator, has invested in several fintech startups with the goal of growing the Indian capital markets.</div>
-          <div>And yet, we are always up to something new every day. Catch up on the latest updates on our <a href="#">blog</a> or see what the media is <a href="#">saying about us.</a></div>
+          <div>
+            We kick-started operations on the 15th of August, 2010 with the goal
+            of breaking all barriers that traders and investors face in India in
+            terms of cost, support, and technology. We named the company
+            Zerodha, a combination of Zero and "Rodha", the Sanskrit word for
+            barrier.
+          </div>
+          <div>
+            <span className="highlight-blue">Rainmatter</span> , our fintech
+            fund and incubator, has invested in several fintech startups with
+            the goal of growing the Indian capital markets.
+          </div>
+          <div>
+            And yet, we are always up to something new every day. Catch up on
+            the latest updates on our{" "}
+            <span className="highlight-blue">blog</span> or see what the media
+            is <span className="highlight-blue">saying about us</span>
+          </div>
         </div>
       </div>
       <div className="about-people">
@@ -31,10 +66,22 @@ function About() {
             label="Founder, CEO"
           />
           <div>
-            <div>Nithin bootstrapped and founded Zerodha in 2010 to overcome the hurdles he faced during his decade long stint as a trader. Today, Zerodha has changed the landscape of the Indian broking industry.</div>
-            <div>He was named one of the “Top 10 Businessmen to Watch Out for in 2016 in India” by The Economic Times for pioneering and scaling discount broking in India.</div>
+            <div>
+              Nithin bootstrapped and founded Zerodha in 2010 to overcome the
+              hurdles he faced during his decade long stint as a trader. Today,
+              Zerodha has changed the landscape of the Indian broking industry.
+            </div>
+            <div>
+              He was named one of the “Top 10 Businessmen to Watch Out for in
+              2016 in India” by The Economic Times for pioneering and scaling
+              discount broking in India.
+            </div>
             <div>Playing basketball is his zen.</div>
-            <div>Connect on <a href="#">Homepage</a> / <a href="#">TradingQnA</a> / <a href="#">Twitter</a></div>
+            <div>
+              Connect on <span className="highlight-blue">Homepage</span> /{" "}
+              <span className="highlight-blue">TradingQnA</span>/{" "}
+              <span className="highlight-blue">Twitter</span>
+            </div>
           </div>
         </div>
       </div>
