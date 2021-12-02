@@ -77,11 +77,46 @@ function Products() {
           Want to know more about our technology stack? Check out the
           Zerodha.tech blog.
         </h3>
-        <h1>The Zerodha Universe</h1>
+        <h1 className="product-list-title">The Zerodha Universe</h1>
         <p>
           Extend your trading and investment experience even further with our
           partner platforms
         </p>
+        <div className="products-list">
+          <div className="product-box">
+            <img
+              src="https://zerodha.com/static/images/products/smallcase-logo.png"
+              className="product-image-small"
+              alt=""
+            />
+            <p className="product-desc">Thematic investment platform</p>
+          </div>
+          <div className="product-box">
+            <img
+              src="https://zerodha.com/static/images/products/streak-logo.png"
+              className="product-image-small"
+              alt=""
+            />
+            <p className="product-desc">Algo & strategy platform</p>
+          </div>
+          <div className="product-box">
+            <img
+              src="https://zerodha.com/static/images/products/sensibull-logo.svg"
+              className="product-image-small"
+              alt=""
+            />
+            <p className="product-desc">Options trading platform</p>
+          </div>
+          <div className="product-box">
+            <img
+              src="https://zerodha.com/static/images/products/goldenpi-logo.png"
+              className="product-image-small"
+              alt=""
+            />
+            <p className="product-desc">Bonds trading platform</p>
+          </div>
+        </div>
+        <button className="sign-up-btn">Sign-up now</button>
       </div>
     </div>
   );

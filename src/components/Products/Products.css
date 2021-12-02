@@ -1,5 +1,5 @@
 .products {
-  width: 80%;
+  width: 75%;
   margin: auto;
   padding: 20px 0px;
   color: #424242;
@@ -28,11 +28,51 @@
 }
 
 .products .products-list-container {
-  width: 75%;
+  width: 100%;
   margin: 100px auto;
 }
 .products .products-list-container h3 {
   font-size: 20px;
   font-weight: 400;
   margin: 100px 0px;
+}
+.products .products-list-container .product-list-title {
+  font-weight: 500;
+  margin: 30px;
+}
+.products .products-list-container .products-list {
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.products .products-list-container .product-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 20%;
+}
+.products .products-list-container .product-image-small {
+  width: 70%;
+  display: flex;
+  align-self: center;
+}
+.products .products-list-container .product-box .product-desc {
+  font-size: 12px;
+  font-weight: 500;
+  color: #9b9b9b;
+}
+
+.products .products-list-container .sign-up-btn {
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 25px;
+  margin: 20px;
 }
