@@ -7,7 +7,7 @@ import About from "../About/About";
 import Products from "../Products/Products";
 import Pricing from "../Pricing/Pricing";
 import Support from "../Support/Support";
-
+import Footer from "../footer/Footer";
 function Main() {
   return (
     <div>
@@ -29,6 +29,7 @@ function Main() {
           <Support />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
