@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Header from "../Header/Header";
+import Footer from "../footer/Footer";
 import { PeopleCard } from "./PeopleCard";
 
 function About() {
@@ -125,6 +126,7 @@ function About() {
           width="70%"
         />
       </div>
+      <Footer />
     </div>
   );
 }

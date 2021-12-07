@@ -1,8 +1,7 @@
 import React, { useEffect } from "react";
 import "./Home.css";
-
 import Header from "../Header/Header";
-
+import Footer from "../footer/Footer";
 import home1 from "../../assets/images/homepage-1.png";
 import home2 from "../../assets/images/homepage-2.png";
 import home3 from "../../assets/images/home-3.svg";
@@ -10,7 +9,6 @@ import press from "../../assets/images/press-logos.png";
 import { NavLink } from "react-router-dom";
 
 // import Footer from "../footer/Footer";
-
 
 function Home() {
   useEffect(() => {
@@ -100,7 +98,7 @@ function Home() {
         </p>
         <button className="home-button">Sign Up Now</button>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

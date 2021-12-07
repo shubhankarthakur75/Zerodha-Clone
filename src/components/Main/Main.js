@@ -6,10 +6,8 @@ import About from "../About/About";
 import Products from "../Products/Products";
 import Pricing from "../Pricing/Pricing";
 import Support from "../Support/Support";
-import Footer from "../footer/Footer";
 import Coin from "../Coin/Coin";
 import Console from "../console/console";
-
 
 function Main() {
   return (
@@ -30,14 +28,13 @@ function Main() {
         <Route exact path="/support">
           <Support />
         </Route>
-        <Route exact path="/coin">
+        <Route exact path="/products/coin">
           <Coin />
         </Route>
         <Route exact path="/products/console">
           <Console />
         </Route>
       </Switch>
-      <Footer />
     </div>
   );
 }

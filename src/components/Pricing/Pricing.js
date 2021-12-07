@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "./Pricing.css";
 import Header from "../Header/Header";
+import Footer from "../footer/Footer";
 import zeroImg from "../../assets/images/0-image.svg";
 import twentyImg from "../../assets/images/20-image.svg";
 
@@ -76,6 +77,7 @@ function Pricing() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

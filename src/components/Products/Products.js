@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Products.css";
 import Header from "../Header/Header";
+import Footer from "../footer/Footer";
 import Product21 from "./Product21";
 import Product12 from "./Product12";
 
@@ -47,7 +48,7 @@ function Products() {
       },
       {
         id: 5,
-        productName: "Varsity mobile",
+        productName: "Varsity Mobile",
         productDesc:
           "An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go.",
         productImageURL:
@@ -124,6 +125,7 @@ function Products() {
         </div>
         <button className="sign-up-btn">Sign-up now</button>
       </div>
+      <Footer />
     </div>
   );
 }
