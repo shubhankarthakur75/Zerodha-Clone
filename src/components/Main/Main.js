@@ -7,6 +7,7 @@ import About from "../About/About";
 import Products from "../Products/Products";
 import Pricing from "../Pricing/Pricing";
 import Support from "../Support/Support";
+import Console from "../console/console";
 
 function Main() {
   return (
@@ -27,6 +28,9 @@ function Main() {
         </Route>
         <Route exact path="/support">
           <Support />
+        </Route>
+        <Route exact path="/products/console">
+          <Console/>
         </Route>
       </Switch>
     </div>
