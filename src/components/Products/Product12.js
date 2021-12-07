@@ -3,6 +3,7 @@ import "./Product12.css";
 // import kiteImage from "../../assets/images/products-kite.png";
 import playstoreBadge from "../../assets/images/google-play-badge.svg";
 import appstoreBadge from "../../assets/images/appstore-badge.svg";
+import { NavLink } from "react-router-dom"
 
 function Product12(props) {
   const [product] = useState(props.propsProduct);
@@ -20,11 +21,11 @@ function Product12(props) {
         </div>
       </div>
       <div className="large-right-box">
-        <img
+        <NavLink to="/products/console"><img
           src={`${product.productImageURL}`}
           className="product-image"
           alt=""
-        />
+        /></NavLink>
       </div>
     </div>
   );
