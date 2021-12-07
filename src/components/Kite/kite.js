@@ -1,10 +1,14 @@
 import "../console/console.css"
+import { useEffect } from "react";
 import Header from "../Header/Header"
 import playstoreBadge from "../../assets/images/google-play-badge.svg";
 import appstoreBadge from "../../assets/images/appstore-badge.svg";
 import Footer from "../footer/Footer";
 
 export default function Kite(){
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return(
         <div>
             <Header/>

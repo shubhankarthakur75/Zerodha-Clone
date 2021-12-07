@@ -66,7 +66,7 @@ function Home() {
       </div>
 
       <div className="home-flexbox">
-        <div style={{ width: "40%" }}>
+        <div className="home-width">
           <p className="home-heading">Unbeatable Pricing </p>
           <p className="home-content">
             We pioneered the concept of discount broking and price transparency
