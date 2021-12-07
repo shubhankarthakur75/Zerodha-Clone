@@ -6,8 +6,10 @@ import About from "../About/About";
 import Products from "../Products/Products";
 import Pricing from "../Pricing/Pricing";
 import Support from "../Support/Support";
+import Footer from "../footer/Footer";
 import Coin from "../Coin/Coin";
 import Console from "../console/console";
+
 
 function Main() {
   return (
@@ -35,6 +37,7 @@ function Main() {
           <Console />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
