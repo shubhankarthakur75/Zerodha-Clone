@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Product12.css";
-// import kiteImage from "../../assets/images/products-kite.png";
 import playstoreBadge from "../../assets/images/google-play-badge.svg";
 import appstoreBadge from "../../assets/images/appstore-badge.svg";
 
@@ -12,7 +12,13 @@ function Product12(props) {
         <div>
           <h1 className="product-name">{product.productName}</h1>
           <p className="product-desc">{product.productDesc}</p>
-          <span className="highlight-blue"> Learn more</span>
+          {product.isRedirect ? (
+            <Link to={`/${product.productName.replace(/\s/g, "")}`}>
+              <span className="highlight-blue"> Learn more</span>{" "}
+            </Link>
+          ) : (
+            <span className="highlight-blue"> Learn more</span>
+          )}
           <div>
             <img src={playstoreBadge} className="store-icon" alt="playstore" />
             <img src={appstoreBadge} className="store-icon" alt="playstore" />

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Products.css";
+import Header from "../Header/Header";
 import Product21 from "./Product21";
 import Product12 from "./Product12";
 
@@ -16,6 +17,7 @@ function Products() {
         productDesc:
           "Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices.",
         productImageURL: "https://zerodha.com/static/images/products-kite.png",
+        isRedirect: false,
       },
       {
         id: 2,
@@ -24,6 +26,7 @@ function Products() {
           "The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations.",
         productImageURL:
           "https://zerodha.com/static/images/products-console.png",
+        isRedirect: false,
       },
       {
         id: 3,
@@ -31,6 +34,7 @@ function Products() {
         productDesc:
           "Buy direct mutual funds online, commission-free, delivered directly to your Demat account. Enjoy the investment experience on your Android and iOS devices.",
         productImageURL: "https://zerodha.com/static/images/products-coin.png",
+        isRedirect: true,
       },
       {
         id: 4,
@@ -39,6 +43,7 @@ function Products() {
           "Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase.",
         productImageURL:
           "https://zerodha.com/static/images/products-kiteconnect.png",
+        isRedirect: true,
       },
       {
         id: 5,
@@ -53,6 +58,7 @@ function Products() {
   const [products] = useState(productsObj.productsArr);
   return (
     <div className="products">
+      <Header />
       <div className="box">
         <h1 className="products-title">Technology</h1>
         <h5 className="products-desc">

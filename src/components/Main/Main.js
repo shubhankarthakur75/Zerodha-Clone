@@ -2,16 +2,15 @@ import React from "react";
 import "./Main.css";
 import { Route, Switch } from "react-router";
 import Home from "../Home/Home";
-import Header from "../Header/Header";
 import About from "../About/About";
 import Products from "../Products/Products";
 import Pricing from "../Pricing/Pricing";
 import Support from "../Support/Support";
+import Coin from "../Coin/Coin";
 
 function Main() {
   return (
     <div>
-      <Header />
       <Switch>
         <Route exact path="/">
           <Home />
@@ -27,6 +26,9 @@ function Main() {
         </Route>
         <Route exact path="/support">
           <Support />
+        </Route>
+        <Route exact path="/coin">
+          <Coin />
         </Route>
       </Switch>
     </div>
