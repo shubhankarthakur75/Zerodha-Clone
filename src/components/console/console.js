@@ -1,8 +1,12 @@
 import "./console.css";
+import { useEffect } from "react";
 import Header from "../Header/Header";
 import Footer from "../footer/Footer";
 
 export default function Console() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Header />

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Product21.css";
 import playstoreBadge from "../../assets/images/google-play-badge.svg";
 import appstoreBadge from "../../assets/images/appstore-badge.svg";
@@ -13,11 +13,11 @@ function Product21(props) {
   return (
     <div className="product21">
       <div className="large-left-box">
-        <img
+       <NavLink to="/products/kite"> <img
           src={`${product.productImageURL}`}
           className="product-image"
           alt=""
-        />
+        /> </NavLink>
       </div>
       <div className="small-right-box">
         <div>
