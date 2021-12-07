@@ -1,0 +1,66 @@
+.coin {
+  margin: 0px;
+  background-color: #f6f8fc;
+}
+.coin .coin-navbar {
+  width: 70%;
+  margin: auto;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.coin .main-image-container {
+  width: 100%;
+  text-align: center;
+}
+.coin .main-image-container img {
+  margin: 60px 0px 40px 0px;
+}
+.coin .main-image-container .home-image-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3f4d71;
+}
+.coin .main-image-container .fund-selector {
+  width: 40%;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 20px 0px;
+  padding: 12px;
+  border-radius: 4px;
+  border-color: white;
+  outline-color: white;
+}
+.coin .main-image-container .app-links span {
+  margin: 15px;
+}
+.coin .main-image-container .app-links img {
+  margin: 10px;
+}
+.coin .main-image-container .new-version-banner {
+  width: 40%;
+  margin: 20px;
+}
+.coin .coin-info {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.coin .left-box {
+  width: 30%;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+}
+.coin .right-box {
+  width: 30%;
+  text-align: left;
+}
+.coin .left-box h1 {
+  font-size: 24px;
+  font-weight: 600;
+}

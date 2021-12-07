@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Product21.css";
 import playstoreBadge from "../../assets/images/google-play-badge.svg";
 import appstoreBadge from "../../assets/images/appstore-badge.svg";
@@ -18,7 +19,13 @@ function Product21(props) {
         <div>
           <h1 className="product-name">{product.productName}</h1>
           <p className="product-desc">{product.productDesc}</p>
-          <span className="highlight-blue"> Learn more</span>
+          {product.isRedirect === true ? (
+            <Link to={`/${product.productName.toLowerCase()}`} target="_blank">
+              <span className="highlight-blue">{product.productName}</span>
+            </Link>
+          ) : (
+            <span className="highlight-blue">{product.productName}</span>
+          )}
           <div>
             <img src={playstoreBadge} className="store-icon" alt="playstore" />
             <img src={appstoreBadge} className="store-icon" alt="playstore" />

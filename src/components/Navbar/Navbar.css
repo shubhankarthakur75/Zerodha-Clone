@@ -31,7 +31,6 @@
   list-style-type: none;
   font-size: 15px;
   font-weight: 400;
-  color: #666;
 }
 .navbar .hamburger-menu-icon {
   height: 25px;
@@ -39,6 +38,7 @@
 }
 .navbar .right-nav-box a {
   text-decoration: none;
+  color: #666;
 }
 .navbar .right-nav-box a:hover {
   color: #387ed1;
@@ -46,4 +46,14 @@
 .navbar .right-nav-box .active {
   color: #387ed1;
   text-shadow: 0 0 0 #387ed1;
+}
+
+@media all and (max-width: 640px) {
+  .navbar .right-nav-box {
+    width: 60%;
+  }
+
+  .navbar {
+    margin: 0;
+  }
 }

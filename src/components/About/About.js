@@ -1,10 +1,12 @@
 import React from "react";
 import "./About.css";
+import Header from "../Header/Header";
 import { PeopleCard } from "./PeopleCard";
 
 function About() {
   return (
     <div className="about">
+      <Header />
       <header>
         <h1>
           We pioneered the discount broking model in India. Now, we are breaking

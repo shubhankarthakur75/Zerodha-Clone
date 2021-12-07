@@ -1,5 +1,6 @@
-import React ,  { useEffect } from "react";
+import React, { useEffect } from "react";
 import "./Pricing.css";
+import Header from "../Header/Header";
 import zeroImg from "../../assets/images/0-image.svg";
 import twentyImg from "../../assets/images/20-image.svg";
 
@@ -9,6 +10,7 @@ function Pricing() {
   }, []);
   return (
     <div className="pricing">
+      <Header />
       <div className="box">
         <h1 className="pricing-title">Pricing</h1>
         <h5 className="pricing-desc">
