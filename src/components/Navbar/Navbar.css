@@ -47,3 +47,13 @@
   color: #387ed1;
   text-shadow: 0 0 0 #387ed1;
 }
+
+@media all and (max-width: 640px) {
+  .navbar .right-nav-box {
+    width: 60%;
+  }
+
+  .navbar {
+    margin: 0;
+  }
+}

@@ -1,0 +1,124 @@
+.console-flex {
+  display: flex;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.justify-center > p {
+  text-align: center;
+  width: 60%;
+}
+
+.console-img1 {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px lightgray;
+  margin-top: 5%;
+}
+
+.console-div {
+  width: 30%;
+  margin-top: 10%;
+}
+
+.console-div > p {
+  line-height: 30px;
+}
+
+.image-width {
+  width: 50%;
+}
+
+.console-div1 {
+  width: 40%;
+  margin-top: 10%;
+}
+
+.console-div1 > p {
+  line-height: 30px;
+}
+
+.console-title {
+  font-size: 2em;
+  margin-block-end: 0.5em;
+  font-weight: 600;
+}
+
+.console-description {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.console-button {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  background-color: #387ed1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.console-button:hover {
+  background-color: black;
+}
+
+.flex-margin {
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.console-images {
+  width: 40%;
+  margin-top: 5%;
+}
+
+@media all and (max-width: 640px) {
+  .console-flex {
+    display: block;
+    margin-top: 10%;
+  }
+  .console-div {
+    width: 97%;
+    margin-left: 3%;
+  }
+  .console-div1 {
+    width: 97%;
+    margin-left: 3%;
+  }
+
+  .console-img1 {
+    width: 100%;
+  }
+
+  .console-images {
+    width: 100%;
+  }
+
+  .flex-margin {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .justify-center > p {
+    width: 100%;
+  }
+  .image-width {
+    width: 100%;
+  }
+}

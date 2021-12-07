@@ -7,6 +7,7 @@ import Products from "../Products/Products";
 import Pricing from "../Pricing/Pricing";
 import Support from "../Support/Support";
 import Coin from "../Coin/Coin";
+import Console from "../console/console";
 
 function Main() {
   return (
@@ -29,6 +30,9 @@ function Main() {
         </Route>
         <Route exact path="/coin">
           <Coin />
+        </Route>
+        <Route exact path="/products/console">
+          <Console />
         </Route>
       </Switch>
     </div>
