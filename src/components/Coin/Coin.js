@@ -1,5 +1,6 @@
 import React from "react";
 import "./Coin.css";
+import CoinFooter from "./CoinFooter";
 import coinLogoWithText from "../../assets/images/coin-logo-with-text.svg";
 import coinHomeImage from "../../assets/images/coin-homepage.png";
 import appStoreBadge from "../../assets/images/appstore-badge.svg";
@@ -56,13 +57,37 @@ function Coin() {
             directly from asset management companies. Your mutual funds, stocks,
             currencies, bonds, and more, all in your Demat account.
           </p>
+          <span>
+            <a
+              href="https://zerodha.com/z-connect/sticky/coin-is-now-completely-free"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Learn more
+            </a>
+          </span>
         </div>
         <div className="right-box">
           <img src={coinImage} alt="coin" />
           <h1>Free, unlimited investments</h1>
           <h2>₹0 fees, brokerage, or commissions</h2>
         </div>
+        <div className="bottom-box">
+          <a
+            href="https://coin.zerodha.com/funds"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Explore all direct mutual funds
+          </a>
+        </div>
       </div>
+      <div className="mutual-funds-info">
+        <h1>Buy direct mutual funds in one place</h1>
+        <p>Don't have a Zerodha account? Sign up now.</p>
+        <button className="sign-up-btn">Sign-up now</button>
+      </div>
+      <CoinFooter />
     </div>
   );
 }

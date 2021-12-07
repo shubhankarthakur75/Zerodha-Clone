@@ -1,6 +1,7 @@
 .coin {
   margin: 0px;
   background-color: #f6f8fc;
+  font-family: "Open Sans", sans-serif;
 }
 .coin .coin-navbar {
   width: 70%;
@@ -10,6 +11,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
+}
+.coin .coin-navbar .right-box {
+  text-align: right;
 }
 .coin .main-image-container {
   width: 100%;
@@ -45,6 +49,7 @@
 }
 .coin .coin-info {
   width: 100%;
+  padding: 100px 0px;
   background-color: white;
   display: flex;
   flex-direction: row;
@@ -54,13 +59,72 @@
 .coin .left-box {
   width: 30%;
   text-align: left;
-  font-family: "Open Sans", sans-serif;
 }
 .coin .right-box {
   width: 30%;
   text-align: left;
 }
+.coin .bottom-box {
+  width: 100%;
+  text-align: center;
+  margin: 80px 0px;
+}
 .coin .left-box h1 {
   font-size: 24px;
   font-weight: 600;
+  color: #3f4d71;
+}
+.coin .left-box p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #424242;
+  line-height: 26px;
+}
+.coin .left-box a {
+  text-decoration: none;
+  border-bottom: 1px dotted #3f4d71;
+}
+.coin .right-box h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #3f4d71;
+  margin: 0px;
+}
+.coin .right-box h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #3f4d71;
+}
+
+.coin .bottom-box a {
+  font-size: 17px;
+  text-decoration: none;
+  border-bottom: 1px dotted #3f4d71;
+}
+
+.coin .mutual-funds-info {
+  text-align: center;
+  padding: 100px 0px;
+}
+.coin .mutual-funds-info h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #3f4d71;
+}
+.coin .mutual-funds-info p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #3f4d71;
+}
+.coin .mutual-funds-info .sign-up-btn {
+  background: #ffd75b;
+  color: #374367;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  box-shadow: 0 2px 5px #f3f3f3;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 35px;
+  margin: 10px;
 }

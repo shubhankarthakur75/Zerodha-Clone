@@ -1,0 +1,30 @@
+.coin-footer {
+  width: 100%;
+  background-color: #374468;
+  color: #80899e;
+  padding: 30px;
+}
+.coin-footer .top-bar {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.coin-footer .top-bar .right-box {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.coin-footer .top-bar .right-box li {
+  list-style-type: none;
+  margin: 0px 10px;
+  font-size: 14px;
+}
+.coin-footer .top-bar .right-box a {
+  text-decoration: none;
+  color: white;
+}

@@ -9,7 +9,7 @@ header {
   border-bottom: 1px solid #eee;
 }
 
-h1 {
+.about h1 {
   text-align: center;
   font-size: 2rem;
   line-height: 1.5;
