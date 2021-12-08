@@ -103,3 +103,38 @@
   text-decoration: none;
   color: #387ed1;
 }
+
+.home-width {
+  width: 40%;
+}
+
+@media screen and (max-width: 640px) {
+  .home-1 {
+    width: 80%;
+  }
+  .home-description {
+    text-align: center;
+  }
+
+  .home-flexbox {
+    display: block;
+    margin-left: 0;
+  }
+
+  .home-3 {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .flex-div {
+    width: 100%;
+  }
+  .home-width {
+    width: 100%;
+  }
+
+  .pricing-flex {
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+}
