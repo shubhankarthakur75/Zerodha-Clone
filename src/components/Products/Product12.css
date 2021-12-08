@@ -10,11 +10,9 @@
   width: 40%;
   display: flex;
   align-items: center;
-  border: 2px solid blue;
 }
 .product12 .large-right-box {
   width: 55%;
-  border: 2px solid blue;
 }
 
 .produc12 .product-name {

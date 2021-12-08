@@ -7,14 +7,12 @@
 }
 .product21 .large-left-box {
   width: 55%;
-  border: 2px solid blue;
 }
 .product21 .small-right-box {
   width: 40%;
   text-align: left;
   display: flex;
   align-items: center;
-  border: 2px solid blue;
 }
 
 .product21 .product-image {

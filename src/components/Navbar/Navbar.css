@@ -18,6 +18,13 @@
   color: #666;
   display: flex;
   flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+.navbar .horizontal-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +42,8 @@
 .navbar .hamburger-menu-icon {
   height: 25px;
   width: 25px;
+  margin-top: 10px;
+  display: none;
 }
 .navbar .right-nav-box a {
   text-decoration: none;
@@ -48,12 +57,44 @@
   text-shadow: 0 0 0 #387ed1;
 }
 
-@media all and (max-width: 640px) {
-  .navbar .right-nav-box {
-    width: 60%;
+/* Responsive Product12.css */
+
+/* for screen-size 300px-750px */
+@media screen and (min-width: 300px) and (max-width: 750px) {
+  .navbar .horizontal-menu {
+    display: none;
   }
 
-  .navbar {
-    margin: 0;
+  .navbar .hamburger-menu-icon {
+    display: initial;
   }
+
+  /* .navbar .right-nav-box {
+    width: 80%;
+    height: 100vh;
+    border-left: 3px solid rgb(243, 243, 243);
+    position: absolute;
+    right: 0;
+    background-color: white;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    z-index: 1;
+  }
+
+  .navbar .right-nav-box li {
+    width: 100%;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px 10px;
+    border-bottom: 3px solid rgb(243, 243, 243);
+    text-align: center;
+  }
+  .navbar .right-nav-box a {
+    width: 100%;
+  } */
 }
