@@ -90,8 +90,9 @@
     flex-direction: column;
     grid-gap: 5px;
     gap: 5px;
-    margin-top: 30px;
-    margin-left: 11%;
+    /* margin-top: 30px;
+    margin-left: 11%; */
+    margin: 30px auto;
   }
 }
 @media screen and (max-width: 640px) {

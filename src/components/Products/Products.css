@@ -80,3 +80,124 @@
 .products a {
   text-decoration: none;
 }
+
+/* Responsive Products.css */
+
+/* For screen-size 1000px-1300px */
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  .products .products-list-container .product-box {
+    width: 25%;
+  }
+}
+
+/* For screen-size 700px-1000px */
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .products .products-title {
+    font-size: 40px;
+  }
+  .products .products-desc {
+    font-size: 18px;
+  }
+
+  .products .products-list-container h3 {
+    font-size: 18px;
+  }
+  .products .products-list-container .product-list-title {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 30px;
+  }
+  .products .products-list-container .product-box {
+    width: 25%;
+  }
+  .products .products-list-container .sign-up-btn {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 20px;
+  }
+}
+
+/* For screen-size 450px-700px */
+@media screen and (min-width: 450px) and (max-width: 700px) {
+  .products {
+    width: 85%;
+  }
+  .products .products-title {
+    font-size: 35px;
+  }
+  .products .products-desc {
+    font-size: 17px;
+  }
+  .products .products-list-container {
+    width: 100%;
+    margin: 40px auto;
+  }
+  .products .products-list-container h3 {
+    font-size: 16px;
+  }
+  .products .products-list-container .product-list-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px;
+  }
+  .products .products-list-container .products-list {
+    flex-direction: column;
+  }
+  .products .products-list-container .product-box {
+    width: 50%;
+    margin: 15px auto;
+  }
+  .products .products-list-container .sign-up-btn {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 20px;
+  }
+}
+/* For screen-size 350px-450px */
+@media screen and (min-width: 350px) and (max-width: 450px) {
+  .products {
+    width: 85%;
+  }
+  .products .box {
+    padding: 80px 0px 80px 0px;
+  }
+  .products .products-title {
+    font-size: 30px;
+  }
+  .products .products-desc {
+    font-size: 15px;
+  }
+  .products .box p {
+    font-size: 15px;
+  }
+  .products .products-list-container {
+    width: 100%;
+    margin: 40px auto;
+  }
+  .products .products-list-container h3 {
+    font-size: 16px;
+  }
+  .products .products-list-container .product-list-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 30px;
+  }
+  .products .products-list-container .products-list {
+    flex-direction: column;
+  }
+  .products .products-list-container .product-box {
+    width: 50%;
+    margin: 15px auto;
+  }
+  .products .products-list-container .sign-up-btn {
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 20px;
+  }
+}
