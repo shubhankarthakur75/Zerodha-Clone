@@ -17,33 +17,33 @@ function Main() {
   return (
     <div>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/Zerodha-Clone">
           <Home />
         </Route>
-        <Route exact path="/about">
+        <Route exact path="/Zerodha-Clone/about">
           <About />
         </Route>
-        <Route exact path="/products">
+        <Route exact path="/Zerodha-Clone/products">
           <Products />
         </Route>
-        <Route exact path="/pricing">
+        <Route exact path="/Zerodha-Clone/pricing">
           <Pricing />
         </Route>
-        <Route exact path="/support">
+        <Route exact path="/Zerodha-Clone/support">
           <Support />
         </Route>
-        <Route exact path="/products/coin">
+        <Route exact path="/Zerodha-Clone/products/coin">
           <Coin />
         </Route>
-        <Route exact path="/products/console">
+        <Route exact path="/Zerodha-Clone/products/console">
           <Console />
         </Route>
 
-        <Route exact path="/products/kiteConnectAPI">
+        <Route exact path="/Zerodha-Clone/products/kiteConnectAPI">
           <KiteConnect />
         </Route>
 
-        <Route exact path="/products/kite">
+        <Route exact path="/Zerodha-Clone/products/kite">
           <Kite />
         </Route>
       </Switch>

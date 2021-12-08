@@ -57,10 +57,10 @@ function Home() {
         <p className="home-description">
           tailored to specific needs, built from the ground up
         </p>
-        <NavLink to="/products">
+        <NavLink to="/Zerodha-Clone/products">
           <img className="home-2" src={home2} alt="" />
         </NavLink>
-        <NavLink to="/products">
+        <NavLink to="/Zerodha-Clone/products">
           <p className="home-links">Explore our products</p>
         </NavLink>
       </div>
@@ -73,7 +73,7 @@ function Home() {
             in India. Flat fees and no hidden charges.
           </p>
 
-          <NavLink to="/pricing" className="home-links">
+          <NavLink to="/Zerodha-Clone/pricing" className="home-links">
             See Pricing
           </NavLink>
         </div>

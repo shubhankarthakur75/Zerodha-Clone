@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="left-nav-box">
-        <NavLink to="/">
+        <NavLink to="/Zerodha-Clone/">
           <img src={logo} className="nav-logo" alt="" />
         </NavLink>
       </div>
@@ -27,25 +27,25 @@ function Navbar() {
 
         <div className="horizontal-menu">
           <NavLink
-            to="/about"
+            to="/Zerodha-Clone/about"
             onClick={() => setNavMenuVisibility(!isNavMenuVisible)}
           >
             <li>About</li>
           </NavLink>
           <NavLink
-            to="/products"
+            to="/Zerodha-Clone/products"
             onClick={() => setNavMenuVisibility(!isNavMenuVisible)}
           >
             <li>Products</li>
           </NavLink>
           <NavLink
-            to="/pricing"
+            to="/Zerodha-Clone/pricing"
             onClick={() => setNavMenuVisibility(!isNavMenuVisible)}
           >
             <li>Pricing</li>
           </NavLink>
           <NavLink
-            to="/support"
+            to="/Zerodha-Clone/support"
             onClick={() => setNavMenuVisibility(!isNavMenuVisible)}
           >
             <li>Support</li>

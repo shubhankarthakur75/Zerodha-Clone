@@ -6,16 +6,16 @@ function HamburgerMenu() {
   return (
     <div className="hamburger-menu">
       <div className="hamburger-menu-container">
-        <NavLink to="/about">
+        <NavLink to="/Zerodha-Clone/about">
           <li>About</li>
         </NavLink>
-        <NavLink to="/products">
+        <NavLink to="/Zerodha-Clone/products">
           <li>Products</li>
         </NavLink>
-        <NavLink to="/pricing">
+        <NavLink to="/Zerodha-Clone/pricing">
           <li>Pricing</li>
         </NavLink>
-        <NavLink to="/support">
+        <NavLink to="/Zerodha-Clone/support">
           <li>Support</li>
         </NavLink>
       </div>

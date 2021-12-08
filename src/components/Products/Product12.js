@@ -18,7 +18,7 @@ function Product12(props) {
           <p className="product-desc">{product.productDesc}</p>
           {product.isRedirect ? (
             <Link
-              to={`/products/${lowerCaseFirstLetter(
+              to={`/Zerodha-Clone/products/${lowerCaseFirstLetter(
                 product.productName.replace(/\s/g, "")
               )}`}
               target="_blank"
@@ -27,7 +27,7 @@ function Product12(props) {
             </Link>
           ) : (
             <Link
-              to={`/products/${lowerCaseFirstLetter(
+              to={`/Zerodha-Clone/products/${lowerCaseFirstLetter(
                 product.productName.replace(/\s/g, "")
               )}`}
             >
@@ -41,7 +41,7 @@ function Product12(props) {
         </div>
       </div>
       <div className="large-right-box">
-        <Link to="/products/console">
+        <Link to="/Zerodha-Clone/products/console">
           <img
             src={`${product.productImageURL}`}
             className="product-image"

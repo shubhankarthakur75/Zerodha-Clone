@@ -51,13 +51,13 @@ function Footer() {
           <ul className="list-style">
             <li className="nav-head">Company</li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/Zerodha-Clone/about">About</Link>
             </li>
             <li>
-              <Link to="/products">Products</Link>
+              <Link to="/Zerodha-Clone/products">Products</Link>
             </li>
             <li>
-              <Link to="/pricing">Pricing</Link>
+              <Link to="/Zerodha-Clone/pricing">Pricing</Link>
             </li>
             <li>
               <Link to="/">Referral programme</Link>

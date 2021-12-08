@@ -13,11 +13,14 @@ function Product21(props) {
   return (
     <div className="product21">
       <div className="large-left-box">
-       <NavLink to="/products/kite"> <img
-          src={`${product.productImageURL}`}
-          className="product-image"
-          alt=""
-        /> </NavLink>
+        <NavLink to="/Zerodha-Clone/products/kite">
+          {" "}
+          <img
+            src={`${product.productImageURL}`}
+            className="product-image"
+            alt=""
+          />{" "}
+        </NavLink>
       </div>
       <div className="small-right-box">
         <div>
@@ -25,7 +28,7 @@ function Product21(props) {
           <p className="product-desc">{product.productDesc}</p>
           {product.isRedirect === true ? (
             <Link
-              to={`/products/${lowerCaseFirstLetter(
+              to={`/Zerodha-Clone/products/${lowerCaseFirstLetter(
                 product.productName.replace(/\s/g, "")
               )}`}
               target="_blank"
@@ -34,7 +37,7 @@ function Product21(props) {
             </Link>
           ) : (
             <Link
-              to={`/products/${lowerCaseFirstLetter(
+              to={`/Zerodha-Clone/products/${lowerCaseFirstLetter(
                 product.productName.replace(/\s/g, "")
               )}`}
             >
