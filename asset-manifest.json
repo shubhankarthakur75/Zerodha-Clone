@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Zerodha-Clone/static/css/main.7980f536.chunk.css",
+    "main.js": "/Zerodha-Clone/static/js/main.243072b8.chunk.js",
+    "main.js.map": "/Zerodha-Clone/static/js/main.243072b8.chunk.js.map",
+    "runtime-main.js": "/Zerodha-Clone/static/js/runtime-main.8b5d3c9c.js",
+    "runtime-main.js.map": "/Zerodha-Clone/static/js/runtime-main.8b5d3c9c.js.map",
+    "static/js/2.a6345d64.chunk.js": "/Zerodha-Clone/static/js/2.a6345d64.chunk.js",
+    "static/js/2.a6345d64.chunk.js.map": "/Zerodha-Clone/static/js/2.a6345d64.chunk.js.map",
+    "static/js/3.1253aa2e.chunk.js": "/Zerodha-Clone/static/js/3.1253aa2e.chunk.js",
+    "static/js/3.1253aa2e.chunk.js.map": "/Zerodha-Clone/static/js/3.1253aa2e.chunk.js.map",
+    "index.html": "/Zerodha-Clone/index.html",
+    "static/css/main.7980f536.chunk.css.map": "/Zerodha-Clone/static/css/main.7980f536.chunk.css.map",
+    "static/js/2.a6345d64.chunk.js.LICENSE.txt": "/Zerodha-Clone/static/js/2.a6345d64.chunk.js.LICENSE.txt",
+    "static/media/0-image.eb574e13.svg": "/Zerodha-Clone/static/media/0-image.eb574e13.svg",
+    "static/media/20-image.0bb37459.svg": "/Zerodha-Clone/static/media/20-image.0bb37459.svg",
+    "static/media/appstore-badge.d71974dd.svg": "/Zerodha-Clone/static/media/appstore-badge.d71974dd.svg",
+    "static/media/coin-homepage.38505fa2.png": "/Zerodha-Clone/static/media/coin-homepage.38505fa2.png",
+    "static/media/coin-logo-with-text.3972c49f.svg": "/Zerodha-Clone/static/media/coin-logo-with-text.3972c49f.svg",
+    "static/media/coin-logo.3972c49f.svg": "/Zerodha-Clone/static/media/coin-logo.3972c49f.svg",
+    "static/media/google-play-badge.bc17412b.svg": "/Zerodha-Clone/static/media/google-play-badge.bc17412b.svg",
+    "static/media/home-3.141b508f.svg": "/Zerodha-Clone/static/media/home-3.141b508f.svg",
+    "static/media/home-coins.772875d1.svg": "/Zerodha-Clone/static/media/home-coins.772875d1.svg",
+    "static/media/home-plane.7410c77e.png": "/Zerodha-Clone/static/media/home-plane.7410c77e.png",
+    "static/media/homepage-1.d61ea072.png": "/Zerodha-Clone/static/media/homepage-1.d61ea072.png",
+    "static/media/homepage-2.62278ebd.png": "/Zerodha-Clone/static/media/homepage-2.62278ebd.png",
+    "static/media/logo.1a87c9d1.svg": "/Zerodha-Clone/static/media/logo.1a87c9d1.svg",
+    "static/media/plane.46af7af5.png": "/Zerodha-Clone/static/media/plane.46af7af5.png",
+    "static/media/sensibull-logo.b97585d8.svg": "/Zerodha-Clone/static/media/sensibull-logo.b97585d8.svg",
+    "static/media/streak.5723208a.svg": "/Zerodha-Clone/static/media/streak.5723208a.svg",
+    "static/media/teli logo.a73db01b.png": "/Zerodha-Clone/static/media/teli logo.a73db01b.png",
+    "static/media/zerodha-logo.d5404077.svg": "/Zerodha-Clone/static/media/zerodha-logo.d5404077.svg",
+    "static/media/zerodha.bacf8ca1.svg": "/Zerodha-Clone/static/media/zerodha.bacf8ca1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b5d3c9c.js",
+    "static/js/2.a6345d64.chunk.js",
+    "static/css/main.7980f536.chunk.css",
+    "static/js/main.243072b8.chunk.js"
+  ]
+}
