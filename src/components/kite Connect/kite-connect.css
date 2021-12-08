@@ -1,0 +1,158 @@
+.row {
+  display: flex;
+}
+.col {
+  flex: 50%;
+}
+.nav .links {
+  text-align: right;
+}
+.logo img {
+  max-height: 20px;
+}
+.nav .links a {
+  display: inline-block;
+  margin: 0 0 0 30px;
+  color: #666;
+  text-decoration: none;
+}
+.nav .links a:hover {
+  color: #f33d2c;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 15px;
+  max-width: 1100px;
+}
+.splash {
+  margin: 15vh 0;
+}
+
+.center {
+  text-align: center;
+}
+.splash .title {
+  margin-bottom: 10px;
+  font-size: 2.7rem;
+}
+.splash .subtitle {
+  margin-bottom: 45px;
+}
+.grey {
+  color: #888;
+}
+.button {
+  background: #f33d2c;
+  color: #fff;
+  display: inline-block;
+  padding: 13px 30px;
+  min-width: 100px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0;
+  font-size: 1rem;
+}
+.button:hover {
+  background-color: black;
+}
+.box {
+  box-shadow: 2px 2px 3px #eee;
+  border: 1px solid #ddd;
+  padding: 15px 30px;
+  border-radius: 5px;
+  max-width: 900px;
+  margin: 0 auto 120px auto;
+}
+p a {
+  color: #f33d2c;
+}
+p a :hover {
+  color: #111010;
+  text-decoration: none;
+  text-decoration-color: #111010;
+}
+.center {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 120px;
+}
+.grey {
+  color: #888;
+}
+.partners a {
+  margin: 0 30px;
+}
+.partners img {
+  max-height: 30px;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.sdks a {
+  margin: 0 15px;
+  color: #f33d2c;
+}
+.sdks a:hover {
+  color: #080808;
+}
+.press img {
+  filter: grayscale(100%);
+  opacity: 0.4;
+  max-height: 17px;
+}
+.press a {
+  margin: 0 30px;
+}
+.footer-kite-connect {
+  margin: 90px 0 60px 0;
+  color: #888;
+  font-size: 0.875rem;
+}
+.center {
+  text-align: center;
+}
+
+section {
+  margin-bottom: 120px;
+}
+@media (max-width: 800px) {
+  .row {
+    display: block;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+  }
+  .col {
+    margin-top: 15px;
+  }
+  .nav .links {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .nav .links a {
+    margin: 0 10px;
+  }
+  .sdks {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .press {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

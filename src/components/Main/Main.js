@@ -8,7 +8,11 @@ import Pricing from "../Pricing/Pricing";
 import Support from "../Support/Support";
 import Coin from "../Coin/Coin";
 import Console from "../console/console";
+
+import KiteConnect from "../kite Connect/Kite-connect";
+
 import Kite from "../Kite/kite";
+
 
 function Main() {
   return (
@@ -35,8 +39,13 @@ function Main() {
         <Route exact path="/products/console">
           <Console />
         </Route>
+
+        <Route exact path="/products/kite-connect">
+          <KiteConnect />
+
         <Route exact path="/products/kite">
           <Kite/>
+
         </Route>
       </Switch>
     </div>
