@@ -57,7 +57,7 @@
 .button:hover {
   background-color: black;
 }
-.box {
+.kiteConnect .box {
   box-shadow: 2px 2px 3px #eee;
   border: 1px solid #ddd;
   padding: 15px 30px;

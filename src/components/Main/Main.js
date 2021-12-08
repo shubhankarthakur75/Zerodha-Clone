@@ -13,7 +13,6 @@ import KiteConnect from "../kite Connect/Kite-connect";
 
 import Kite from "../Kite/kite";
 
-
 function Main() {
   return (
     <div>
@@ -40,12 +39,12 @@ function Main() {
           <Console />
         </Route>
 
-        <Route exact path="/products/kite-connect">
+        <Route exact path="/products/kiteConnectAPI">
           <KiteConnect />
+        </Route>
 
         <Route exact path="/products/kite">
-          <Kite/>
-
+          <Kite />
         </Route>
       </Switch>
     </div>

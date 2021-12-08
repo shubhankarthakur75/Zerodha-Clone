@@ -72,7 +72,6 @@
   text-decoration: none;
 } */
 
-
 @media (max-width: 800px) {
   .footer {
     width: 100%;
@@ -93,7 +92,8 @@
     gap: 5px;
     margin-top: 30px;
     margin-left: 11%;
-
+  }
+}
 @media screen and (max-width: 640px) {
   .footer {
     flex-direction: column;
@@ -101,6 +101,5 @@
 
   .connect {
     width: 70%;
-
   }
 }
