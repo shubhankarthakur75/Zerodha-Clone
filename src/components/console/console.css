@@ -88,6 +88,10 @@
   margin-top: 5%;
 }
 
+.badge-div {
+  margin-top: 10%;
+}
+
 @media all and (max-width: 640px) {
   .console-flex {
     display: block;
