@@ -1,13 +1,13 @@
 .pricing {
   width: 80%;
-  margin: auto;
+  margin: 70px auto;
   padding: 20px 0px;
   color: #424242;
   text-align: center;
 }
 .pricing .box {
   width: 100%;
-  padding: 80px 0px;
+  padding: 60px 0px;
   border-bottom: 1px solid #eee;
 }
 .pricing .box:last-child {
@@ -103,4 +103,159 @@
   font-weight: 400;
   text-align: center;
   margin: 40px;
+}
+
+/* Responsive Pricing.css */
+/* for screen-size 600px-1000px */
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+  .pricing {
+    width: 85%;
+  }
+  .pricing .box {
+    padding: 50px 0px;
+  }
+  .pricing .pricing-title {
+    font-size: 40px;
+  }
+  .pricing .pricing-desc {
+    font-size: 18px;
+  }
+  .pricing .pricing-details h2 {
+    font-size: 24px;
+  }
+  .pricing .pricing-details p {
+    font-size: 15px;
+  }
+  .pricing .acc-open .sign-up-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+  }
+}
+
+/* for screen-size 450px-650px */
+@media screen and (min-width: 450px) and (max-width: 650px) {
+  .pricing {
+    width: 90%;
+  }
+  .pricing .box {
+    padding: 40px 0px;
+  }
+  .pricing .pricing-title {
+    font-size: 34px;
+  }
+  .pricing .pricing-desc {
+    font-size: 16px;
+  }
+  .pricing .pricing-details-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pricing .pricing-details {
+    width: 80%;
+    margin: auto;
+  }
+  .pricing .pricing-image {
+    width: 60%;
+  }
+  .pricing .pricing-details h2 {
+    font-size: 24px;
+  }
+  .pricing .pricing-details p {
+    font-size: 15px;
+  }
+  .pricing .acc-open h2 {
+    font-size: 30px;
+  }
+  .pricing .acc-open p {
+    font-size: 15px;
+  }
+  .pricing .acc-open .sign-up-btn {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 20px;
+  }
+  .pricing .acc-open .info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0px;
+  }
+
+  .pricing .acc-open .info-container .left-box {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+  }
+  .pricing .acc-open .info-container .right-box {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+  }
+}
+/* for screen-size 350px-450px */
+@media screen and (min-width: 350px) and (max-width: 450px) {
+  .pricing {
+    width: 95%;
+  }
+  .pricing .box {
+    padding: 40px 0px;
+  }
+  .pricing .pricing-title {
+    font-size: 32px;
+  }
+  .pricing .pricing-desc {
+    font-size: 14px;
+  }
+  .pricing .pricing-details-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pricing .pricing-details {
+    width: 80%;
+    margin: auto;
+  }
+  .pricing .pricing-image {
+    width: 50%;
+  }
+  .pricing .pricing-details h2 {
+    font-size: 22px;
+  }
+  .pricing .pricing-details p {
+    font-size: 14px;
+  }
+  .pricing .acc-open h2 {
+    font-size: 28px;
+  }
+  .pricing .acc-open p {
+    font-size: 14px;
+  }
+  .pricing .acc-open .sign-up-btn {
+    font-size: 15px;
+    padding: 8px 10px;
+    margin: 20px;
+  }
+  .pricing .acc-open .info-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0px;
+  }
+
+  .pricing .acc-open .info-container .left-box {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+  }
+  .pricing .acc-open .info-container .right-box {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+  }
 }
