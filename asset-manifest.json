@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Zerodha-Clone/static/css/main.7980f536.chunk.css",
+    "main.css": "/Zerodha-Clone/static/css/main.ffd2d08b.chunk.css",
     "main.js": "/Zerodha-Clone/static/js/main.ed89a57c.chunk.js",
     "main.js.map": "/Zerodha-Clone/static/js/main.ed89a57c.chunk.js.map",
     "runtime-main.js": "/Zerodha-Clone/static/js/runtime-main.8b5d3c9c.js",
@@ -10,7 +10,7 @@
     "static/js/3.1253aa2e.chunk.js": "/Zerodha-Clone/static/js/3.1253aa2e.chunk.js",
     "static/js/3.1253aa2e.chunk.js.map": "/Zerodha-Clone/static/js/3.1253aa2e.chunk.js.map",
     "index.html": "/Zerodha-Clone/index.html",
-    "static/css/main.7980f536.chunk.css.map": "/Zerodha-Clone/static/css/main.7980f536.chunk.css.map",
+    "static/css/main.ffd2d08b.chunk.css.map": "/Zerodha-Clone/static/css/main.ffd2d08b.chunk.css.map",
     "static/js/2.a6345d64.chunk.js.LICENSE.txt": "/Zerodha-Clone/static/js/2.a6345d64.chunk.js.LICENSE.txt",
     "static/media/0-image.eb574e13.svg": "/Zerodha-Clone/static/media/0-image.eb574e13.svg",
     "static/media/20-image.0bb37459.svg": "/Zerodha-Clone/static/media/20-image.0bb37459.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.8b5d3c9c.js",
     "static/js/2.a6345d64.chunk.js",
-    "static/css/main.7980f536.chunk.css",
+    "static/css/main.ffd2d08b.chunk.css",
     "static/js/main.ed89a57c.chunk.js"
   ]
 }
